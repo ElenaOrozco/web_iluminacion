@@ -4,6 +4,7 @@
 		<?php $this->load->view('sections/slide'); ?>
 
 		<?php $this->load->view('sections/products'); ?>
+		<?php $this->load->view('sections/parallax'); ?>
 
 		<?php $this->load->view('sections/frase'); ?>
 

@@ -16,9 +16,7 @@ body{
 	font-size: 1.4em;
 }
 
-.carousel-inner {  
-   
-}
+
 
 .marketing{
 	height: 600px;
@@ -31,20 +29,18 @@ body{
 	color: #0a0a65;
 }
 
-.carousel-caption 
-{
-	height: 60%;
-}
-.carousel-caption h5{
-	font-size: 60px;
-	font-weight: bold;
 
-}
 footer{
-	height: 300px;
-	background: #004b6b;
+
 	color: #fff;
 }
+
+bg-negro{
+	background: #000 !important;
+}
+
+
+
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
 figure.snip0015 {
@@ -154,3 +150,37 @@ figure.snip0015:hover figcaption::before {
   transition-delay: 0s;
 }
 
+
+
+/* ------- Star Parallax --------*/
+
+.parallax-inner h2{
+	text-align: center;
+	font-size: 575%;
+	color: #4A4444;
+	text-transform: uppercase;
+	letter-spacing: 1%;
+	margin: 45% 0;
+}
+
+.parallax-inner h3{
+	text-align: center;
+	font-size: 275%;
+	color: #E5E5E5;
+	text-transform: uppercase;
+	letter-spacing: 1%;
+	
+}
+
+.parallax{
+	background: url("../img/1.jpg") repeat fixed 100%;
+}
+
+
+.parallax-inner{
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+
+/* ------- End Parallax --------*/
